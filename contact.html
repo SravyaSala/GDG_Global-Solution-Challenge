@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Contacts - Health Harmony</title>
+    <link rel="stylesheet" href="contactstyle.css">
+    <link rel="icon" type="image/png" href="IMAGES/Screenshot 2025-03-22 093411.png">
+    
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <nav>
+                <ul>
+                    <li class="active"><a href="home2.html">Home</a></li>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="tips.html">Tips</a></li>
+                    <li><a href="contact.html">Emergency Contact</a></li>
+                </ul>
+            </nav>
+            <div class="logo">
+                <img src="IMAGES/Screenshot 2025-03-22 093411.png" alt="Health Harmony">
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>Emergency Contacts</h1>
+        <p>Get quick access to medical help when you need it the most.</p>
+    </section>
+
+    <section class="emergency-list">
+        <h2>Important Contacts</h2>
+        <div class="contact">
+            <h3>🚑 Ambulance</h3>
+            <p>Dial: <strong>108</strong></p>
+            <button onclick="callEmergency('102')">Call Now</button>
+        </div>
+        <div class="contact">
+            <h3>🏥 Nearest Hospital</h3>
+            <p>Dial: <strong>Hospital Helpline</strong></p>
+            <button onclick="callEmergency('Hospital Helpline')">Call Now</button>
+        </div>
+        <div class="contact">
+            <h3>👮 Police</h3>
+            <p>Dial: <strong>100</strong></p>
+            <button onclick="callEmergency('100')">Call Now</button>
+        </div>
+        <div class="contact">
+            <h3>🔥 Fire Department</h3>
+            <p>Dial: <strong>101</strong></p>
+            <button onclick="callEmergency('101')">Call Now</button>
+        </div>
+        <div class="contact">
+            <h3>📞 Personal Emergency Contact</h3>
+            <p>Dial: <strong>Your Saved Contact</strong></p>
+            <button onclick="callEmergency('Your Saved Contact')">Call Now</button>
+        </div>
+    </section>
+
+    <section class="map-container">
+        <h2>Find Nearby Hospitals</h2>
+        <a href="https://www.google.com/maps/search/nearby+hospitals" target="_blank" class="map-button">
+            Open Google Maps
+        </a>
+    </section>
+
+   
+
+    <footer>
+        <p>&copy; 2025 Health Harmony. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
